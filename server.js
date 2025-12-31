@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { consultarDark } from './services/darkApi.js';
+import { consultarDark } from './services/DarkApi.js';
 
 const app = express();
 app.use(cors());
